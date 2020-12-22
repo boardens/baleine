@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/boardens/baleine/c46bcf05417026ab95c1bb036f2e53b84d66b324/img/logo.svg" width="350px">
-</p><br>
+  <img src="https://raw.githubusercontent.com/boardens/baleine/c46bcf05417026ab95c1bb036f2e53b84d66b324/img/logo.svg" width="320px">
+</p>
 
 # baleine<sup>beta<sup>
 🐋 Run code snippets from discord over docker.
