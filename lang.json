@@ -1,0 +1,82 @@
+[
+	{
+		"name": "go",
+		"image": "golang:latest",
+		"command": "go run {FILE_PATH}",
+		"manager": null,
+		"hello": "package main<br>import \"fmt\"<br>func main() {<br>&nbsp;&nbsp;fmt.Println(\"hello world\")<br>}",
+		"ext": "go"
+	},
+	{
+		"name": "lua",
+		"image": "dexec/lua:latest",
+		"command": "lua {FILE_PATH}",
+		"manager": null,
+		"hello": "print(\"hello world\")",
+		"ext": "lua"
+	},
+	{
+		"name": "nodejs",
+		"image": "node:latest",
+		"command": "node {FILE_PATH}",
+		"manager": "npm install {PACKAGE}",
+		"hello": "console.log(\"hello world\");",
+		"ext": "js"
+	},
+	{
+		"name": "perl",
+		"image": "perl:latest",
+		"command": "perl {FILE_PATH}",
+		"manager": "ppm install {PACKAGE}",
+		"hello": "$string = \"hello world\";<br>print \"$string\";",
+		"ext": "pl"
+	},
+	{
+		"name": "python2",
+		"image": "python:2",
+		"command": "python {FILE_PATH}",
+		"manager": "python -m pip install {PACKAGE}",
+		"hello": "print \"hello world\"",
+		"ext": "py"
+	},
+	{
+		"name": "python3",
+		"image": "python:3",
+		"command": "python {FILE_PATH}",
+		"manager": "python -m pip install {PACKAGE}",
+		"hello": "print(\"hello world\")",
+		"ext": "py"
+	},
+	{
+		"name": "ruby",
+		"image": "ruby:latest",
+		"command": "ruby {FILE_PATH}",
+		"manager": "gem install {PACKAGE}",
+		"hello": "puts \"hello world\"",
+		"ext": "rb"
+	},
+	{
+		"name": "shell",
+		"image": "alpine:latest",
+		"command": "sh {FILE_PATH}",
+		"manager": null,
+		"hello": "echo \"hello world\"",
+		"ext": "sh"
+	},
+	{
+		"name": "swift",
+		"image": "swift:latest",
+		"command": "swift {FILE_PATH}",
+		"manager": null,
+		"hello": "print(\"hello world\")",
+		"ext": "swift"
+	},
+	{
+		"name": "tcl",
+		"image": "efrecon/tcl:latest",
+		"command": "{FILE_PATH}",
+		"manager": null,
+		"hello": "puts \"hello world\"",
+		"ext": "tcl"
+	}
+]
