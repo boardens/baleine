@@ -1,19 +1,8 @@
-# baleine
+# baleine<sup>beta<sup>
 🐋 Run code snippets from discord over docker.
 
 > Baleine is a discord bot that allow users to run<br>
 > code snippets safely accross the server.
-
-### Supported languages
-
-- Go
-- Lua
-- Javascript
-- Perl
-- Python 2, 3
-- Ruby
-- Shell
-- Swift
 
 ## Get started
 
@@ -51,3 +40,40 @@ $ docker pull ruby:latest
 $ docker pull alpine:latest
 $ docker pull efrecon/tcl:latest
 ```
+
+### Configuration
+
+Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token) and define it token in `config.json`.
+
+```json
+{
+	"prefix": "%",
+	"token": "your token"
+}
+```
+
+## Usage
+
+```bash
+'baleine' usage :
+(Run code snippets from Discord)
+%help, %h             # display help and info
+%list, %l             # display all languages available
+%[language]           # run code snippet
+```
+
+## Compatibilities
+
+Supported languages :
+- Go
+- Lua
+- Javascript
+- Perl
+- Python 2, 3
+- Ruby
+- Shell
+- Swift
+
+## License
+
+[GPL-3.0](https://github.com/boardens/watson/LICENSE/) License
