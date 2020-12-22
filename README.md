@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/boardens/baleine/83630a94b2f25bc3e06075978791ed6d97fa52fc/img/logo.svg" width="350px">
+</p><br>
+
 # baleine<sup>beta<sup>
 🐋 Run code snippets from discord over docker.
 
