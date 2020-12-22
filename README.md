@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/boardens/baleine/c46bcf05417026ab95c1bb036f2e53b84d66b324/img/logo.svg" width="320px">
 </p>
 
-# baleine<sup>beta<sup>
+# baleine <sup>beta<sup>
 🐋 Run code snippets from discord over docker.
 
 > Baleine is a discord bot that allow users to run<br>
@@ -68,7 +68,29 @@ Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a
 
 ## Compatibilities
 
-Supported languages :
+Languages settings are stored in `lang.json`.
+
+```json
+{
+  "name": "ruby",
+  "image": "ruby:latest",
+  "command": "ruby {FILE_PATH}",
+  "manager": "gem install {PACKAGE}",
+  "hello": "puts \"hello world\"",
+  "ext": "rb"
+},
+```
+
+| Argument | Description |
+|---|---|
+| `name` | Displayed language name |
+| `image` | Docker image corresponding |
+| `command` | Script run command |
+| `manager` | Package manager command |
+| `hello` | Hello world script |
+| `ext` | Language extension |
+
+Currently supported languages :
 - Go
 - Lua
 - Javascript
@@ -77,6 +99,8 @@ Supported languages :
 - Ruby
 - Shell
 - Swift
+
+> ⚠️ We're currently experiencing issues with compiled languages.
 
 ## License
 
