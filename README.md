@@ -87,7 +87,7 @@ Each language settings are stored in `lang.json`.
 |---|---|
 | `name` | Displayed language name |
 | `image` | Docker image corresponding |
-| `command` | Script run command |
+| `command` | Run script command |
 | `manager` | Package manager command |
 | `hello` | Hello world script |
 | `ext` | Language extension |
