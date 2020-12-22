@@ -128,7 +128,7 @@ class MyClient(discord.Client):
 				# explain synthax, host example on ctxt.io
 				exc = prefix+langlist[i]+'<br>```'+data[i]["ext"]+'<br>'+data[i]["hello"]+'<br>```'
 				example = paste(exc)
-				await message.channel.send(">>> Usage : `"+prefix+"[language]`, then write down snippet between ``` marks (with carriage return).\nExample (expire in 1 hour) : "+example)
+				await message.channel.send(">>> Usage : `"+prefix+"[language]`, then write down snippets between ``` marks (with carriage return).\nExample (expire in 1 hour) : "+example)
 
 		if message.content == prefix+'help' or message.content == prefix+'h':
 			# display help and info
