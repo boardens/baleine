@@ -81,6 +81,8 @@ Each language settings are stored in `lang.json`.
 },
 ```
 
+> ⚠️ We're currently experiencing issues with compiled languages.
+
 | Argument | Description |
 |---|---|
 | `name` | Displayed language name |
@@ -99,8 +101,6 @@ Currently supported languages :
 - Ruby
 - Shell
 - Swift
-
-> ⚠️ We're currently experiencing issues with compiled languages.
 
 ## License
 
