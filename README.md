@@ -68,7 +68,7 @@ Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a
 
 ## Compatibilities
 
-Languages settings are stored in `lang.json`.
+Each language settings are stored in `lang.json`.
 
 ```json
 {
