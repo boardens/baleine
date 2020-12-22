@@ -1,2 +1,2 @@
 # baleine
-🐋 Run code snippet from discord over docker.
+🐋 Run code snippets from discord over docker.
