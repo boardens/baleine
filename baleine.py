@@ -132,7 +132,7 @@ class MyClient(discord.Client):
 
 		if message.content == prefix+'help' or message.content == prefix+'h':
 			# display help and info
-			await message.channel.send(">>> '"+module_name+"' usage :\n(Run code snippets from Discord)\n```ini\n"+prefix+"help, "+prefix+"h 			# display help and info\n"+prefix+"list, "+prefix+"l 			# display all languages available\n"+prefix+"[language]		   # run code snippet```")
+			await message.channel.send(">>> '"+module_name+"' usage :\n(Run code snippet from discord over docker.)\n```ini\n"+prefix+"help, "+prefix+"h 			# display help and info\n"+prefix+"list, "+prefix+"l 			# display all languages available\n"+prefix+"[language]		   # run code snippet```")
 
 		if message.content == prefix+'list' or message.content == prefix+'l':
 			# display all languages available
