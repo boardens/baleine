@@ -47,8 +47,8 @@ Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a
 
 ```json
 {
-	"prefix": "%",
-	"token": "your token"
+  "prefix": "%",
+  "token": "your token"
 }
 ```
 
