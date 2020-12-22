@@ -28,7 +28,6 @@ $ python3 -m pip install -r requirements.txt
 
 ```bash
 # install docker if it isn't intalled
-$ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 # start docker service
 $ systemctl start docker || service docker start
