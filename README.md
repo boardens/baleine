@@ -4,6 +4,17 @@
 > Baleine is a discord bot that allow users to run<br>
 > code snippets safely accross the server.
 
+### Supported languages
+
+- Go
+- Lua
+- Javascript
+- Perl
+- Python 2, 3
+- Ruby
+- Shell
+- Swift
+
 ## Get started
 
 **Note** : Python 3.6 or higher is required.
