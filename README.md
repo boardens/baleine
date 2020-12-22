@@ -60,7 +60,7 @@ Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a
 
 ```bash
 'baleine' usage :
-(Run code snippets from Discord)
+(Run code snippets from discord over docker.)
 %help, %h             # display help and info
 %list, %l             # display all languages available
 %[language]           # run code snippet
