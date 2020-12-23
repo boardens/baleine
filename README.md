@@ -65,6 +65,15 @@ Create a [discord bot](https://github.com/reactiflux/discord-irc/wiki/Creating-a
 %[language]           # run code snippet
 ```
 
+### Run snippet
+
+```
+%python3
+```py
+print("hello world")
+``
+```
+
 ## Compatibilities
 
 Each language settings are stored in `lang.json`.
